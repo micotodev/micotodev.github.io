@@ -3,9 +3,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="icon" href="/favicon.ico" sizes="any">
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-
     <meta name="description" content="This is the personal developer site of Michael O'Toole, a full-stack developer from Liverpool, UK">
     <title>micoto.dev - Welcome</title>
 
@@ -25,14 +22,25 @@
     <meta property="og:image" content="https://micoto.dev/images/welcome.jpg">
     <meta property="og:url" content="https://micoto.dev">
     <meta name="twitter:card" content="summary_large_image">
+    <style>
+        .alternate-color {
+            background-color: #efe5ff;
+            padding: 0 10px;
+            border-radius: 3px;
+            font-weight: normal;
+        }
+    </style>
 </head>
-<body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <h1 class="text-center">micoto.dev</h1>
-                <p class="text-center">This is the personal developer site of Michael O'Toole, a full-stack developer from Liverpool, UK. I am currently busy with projects, but I'll add some developer-focused articles soon!</p>
-            </div>
+<body class="bg-gray-500">
+
+    <div class="px-4 py-5 my-5 text-center">
+        <h1 class="display-5 fw-bold">micoto <div class="d-inline alternate-color mr-2">.dev</div></h1>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">This is the personal developer site of Michael O'Toole, <br />a full-stack developer from Liverpool, UK.</p>
+            <p class="text-muted">I am currently busy with projects, but I'll add some developer-focused articles soon!</p>
+
         </div>
     </div>
+</body>
+
 </html>
